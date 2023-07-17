@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 
 body
 {
     font-family: 'Hanken Grotesk', sans-serif !important;
+    font-family: 'Barlow', sans-serif !important;
     font-size: 1.2rem !important;
+    color: #1e1515 !important;
 }
-
+*
+{
+    color: #1e1515 !important;
+}
 
 /* [1] The container */
 .img-hover-zoom {
@@ -51,7 +59,7 @@ body
 .container-im {
     position: relative;
     text-align: center;
-    color: white;
+    
 }
 
 
@@ -145,24 +153,40 @@ body
   }
 
 
+  .bg-head-color
+  {
+    background-image: linear-gradient(to right, #212025, #232f3d, #0d4050, #005357, #00644e, #006648, #006742, #00683a, #005c46, #004f4b, #004147, #0b333d);
+    
+  }
+
   .head-bg
   {
   
-    /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%) !important; */
-  
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
-/*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=b81c3c&c2=ab57bd&gt=r&gd=dbb
-*/
-background: #B81C3C;
-background: radial-gradient(at center bottom, #B81C3C, #AB57BD);
+
+   
+background: url(images/bgr.png) repeat ;
+
+
+
+
     
-    
+  }
+
+
+  .head-bg-top-adv
+  {
+   
+    background-color: #1e1515 !important;
+    color: #fff !important;
+    padding: 10px 0 10px 0 !important;
   }
   .nav-item 
   {
     color: #fff !important;
+  }
+  .nav-link
+  {
+    font-size: 1.4rem !important;
   }
   .nav-underline .nav-link.active
   {
@@ -176,12 +200,16 @@ background: radial-gradient(at center bottom, #B81C3C, #AB57BD);
 
   .nav-item:visited
   {
-    color: #d3c9c9 !important;
+    color: #ffffff !important;
   }
 
 
 h2{
-    font-weight: 800 !important;
+    /* font-weight: 800 !important; */
+    font-size: 2.7rem !important;
+    /* font-family: 'Instrument Serif', serif !important; */
+    color: #00644e !important;
+    font-weight: bold;
 }
           
 
@@ -191,7 +219,7 @@ h2{
     display: block;
     width: 62px;
     padding-top: 3px;
-    border-bottom: 5px solid #94037c;
+    border-bottom: 5px solid #ff2b4f;
   }
       
   .myheading
@@ -209,7 +237,7 @@ h2{
 
   .card
   {
-    border:1px solid #e9e9e9 !important;
+    border:1px solid #fafcfa !important;
     background: #fff !important;
     
 
@@ -240,3 +268,74 @@ h2{
   {
     width: 40px !important;
   }
+
+
+
+
+/* CSS */
+.button-76 {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #fff !important;
+  cursor: pointer;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem; /* 18px */
+
+  padding: 0.5rem 1rem;
+
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-76:hover {
+  box-shadow: none;
+  color: #fff1b5;
+  background-image: linear-gradient(to bottom right, #e0bb42, #9b2626, #9e2c65);
+}
+
+@media (min-width: 1024px) {
+  .button-76 {
+    font-size: 1rem; /* 24px */
+  
+  }
+}
+
+
+/*  
+p::first-letter {
+
+    float: left;
+  
+    line-height: 35px;
+  
+    font-size: 55px;
+  
+    color: #7D3C98;
+    font-weight: bold;
+
+  
+    padding-top: 5px;
+  
+    padding-bottom: 5px;
+  
+    padding-right: 5px;
+  
+    padding-left: 5px;
+  
+    margin-right: 5px;
+  
+    margin-bottom: -5px;
+  
+  }
+   */
+
+
+   .aboutme
+   {
+    font-size: 1.5rem !important;
+   }
