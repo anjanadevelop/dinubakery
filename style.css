@@ -157,6 +157,19 @@ body
   {
     background-image: linear-gradient(to right, #212025, #232f3d, #0d4050, #005357, #00644e, #006648, #006742, #00683a, #005c46, #004f4b, #004147, #0b333d);
     
+    background: url(images/bg1.svg) repeat ;
+
+
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/bg2.svg');
+
+    height: 300px;
+    overflow: hidden;;
+
   }
 
   .head-bg
@@ -266,7 +279,8 @@ h2{
   }
   .nav-scroller-controll
   {
-    width: 40px !important;
+    width: 30px !important;
+    text-align: center !important;
   }
 
 
@@ -338,4 +352,23 @@ p::first-letter {
    .aboutme
    {
     font-size: 1.5rem !important;
+   }
+
+
+   .bakes
+   {
+
+    background-image: url('images/cakes.svg');
+  background-repeat: no-repeat;
+  background-position: center; 
+   }
+
+   .nbg1
+   {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/stackedbg1.svg');
    }
