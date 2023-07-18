@@ -221,8 +221,8 @@ h2{
     /* font-weight: 800 !important; */
     font-size: 2.7rem !important;
     /* font-family: 'Instrument Serif', serif !important; */
-    color: #00644e !important;
-    font-weight: bold;
+    color: #eb2398 !important;
+    /* font-weight: bold; */
 }
           
 
@@ -232,7 +232,7 @@ h2{
     display: block;
     width: 62px;
     padding-top: 3px;
-    border-bottom: 5px solid #ff2b4f;
+    border-bottom: 5px solid #22b5f0;
   }
       
   .myheading
@@ -365,10 +365,33 @@ p::first-letter {
 
    .nbg1
    {
-    aspect-ratio: 960/300;
+    aspect-ratio: 960/200;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: url('images/stackedbg1.svg');
    }
+
+   .bgx3
+   {
+    background: #282046 !important;
+    color: #fff !important;
+   }
+
+   .fssailogo
+   {
+    height: 80px !important;
+   }
+
+
+   .twhite
+   {
+    color: #fff !important;
+   }
+   .twhite-muted
+   {
+    color: #dadada !important;
+   }
+
+   
