@@ -375,8 +375,17 @@ p::first-letter {
 
    .bgx3
    {
-    background: #282046 !important;
+   
     color: #fff !important;
+
+ 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/bg2.svg');
+
+
    }
 
    .fssailogo
