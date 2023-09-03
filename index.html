@@ -80,9 +80,9 @@
           <a class="nav-item nav-link link-body-emphasis-rem" href="cookie.html">Cookies</a>
           <a class="nav-item nav-link link-body-emphasis-rem" href="pie.html">Pies and Tarts
           </a>
-          <a class="nav-item nav-link link-body-emphasis-rem" href="special.html">Specialties</a>
+          <!-- <a class="nav-item nav-link link-body-emphasis-rem" href="special.html">Specialties</a>
           <a class="nav-item nav-link link-body-emphasis-rem" href="beverages.html">Beverages</a>
-          <a class="nav-item nav-link link-body-emphasis-rem" href="breakfast.html">Breakfast</a>
+          <a class="nav-item nav-link link-body-emphasis-rem" href="breakfast.html">Breakfast</a> -->
           <a class="nav-item nav-link link-body-emphasis-rem" href="customize.html">Custom Orders</a>
           <a class="nav-item nav-link link-body-emphasis-rem" href="special.html">Seasonal Specials</a>
         </nav>
@@ -190,8 +190,10 @@ viewBox="0 0 3387 3387"
 
 
             
-            <div class="card-body">
-              <h4 class="card-title">Breads</h4>
+
+            
+            <div class="card-body buy">
+              <h4 class="card-title" data-msg="Breads">Breads</h4>
               <!-- <small class="text-muted cat">
                 <i class="far fa-clock text-info"></i> 30 minutes
                 <i class="fas fa-users text-info"></i> 4 portions
@@ -289,8 +291,8 @@ viewBox="0 0 3387 3387"
 
 
             
-            <div class="card-body">
-              <h4 class="card-title">Cakes</h4>
+            <div class="card-body buy">
+              <h4 class="card-title" data-msg="Cakes">Cakes</h4>
               <!-- <small class="text-muted cat">
                 <i class="far fa-clock text-info"></i> 30 minutes
                 <i class="fas fa-users text-info"></i> 4 portions
@@ -367,8 +369,8 @@ viewBox="0 0 3387 3387"
   
   
               
-              <div class="card-body">
-                <h4 class="card-title">Cup cakes</h4>
+              <div class="card-body buy">
+                <h4 class="card-title" data-msg="Cup Cakes">Cup cakes</h4>
                 <!-- <small class="text-muted cat">
                   <i class="far fa-clock text-info"></i> 30 minutes
                   <i class="fas fa-users text-info"></i> 4 portions
@@ -447,8 +449,8 @@ viewBox="0 0 3387 3387"
   
   
               
-              <div class="card-body">
-                <h4 class="card-title">Pies and Tarts</h4>
+              <div class="card-body buy">
+                <h4 class="card-title" data-msg="Pies &amp; Tarts">Pies and Tarts</h4>
                 <!-- <small class="text-muted cat">
                   <i class="far fa-clock text-info"></i> 30 minutes
                   <i class="fas fa-users text-info"></i> 4 portions
@@ -768,5 +770,35 @@ function sideScroll(element,direction,speed,distance,step){
 <script>
   AOS.init();
 </script>
+
+
+
+<!-- whatsapp web -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Whatsapp Order</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div  id="order" >
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" id="whatsapp" class="btn btn-info button-76">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="whatsapp.js"></script>
+<!-- whatsapp web -->
+
+
+
 </body>
 </html>
